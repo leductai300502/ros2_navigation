@@ -1,0 +1,285 @@
+[0.902s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.902s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa92b7730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa91fc2e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa91fc2e0>>)
+[1.965s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.967s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/an/bao_ws'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extensions ['ignore', 'ignore_ament_install']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extension 'ignore'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extension 'ignore_ament_install'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extensions ['colcon_pkg']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extension 'colcon_pkg'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extensions ['colcon_meta']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extension 'colcon_meta'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extensions ['ros']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_esp) by extension 'ros'
+[2.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_esp' with type 'ros.ament_cmake' and name 'diffdrive_esp'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extension 'ignore'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extension 'ignore_ament_install'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extensions ['colcon_pkg']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extension 'colcon_pkg'
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extensions ['colcon_meta']
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extension 'colcon_meta'
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extensions ['ros']
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_controller) by extension 'ros'
+[2.094s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_controller' with type 'ros.ament_cmake' and name 'tb3_controller'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['ignore', 'ignore_ament_install']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'ignore'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'ignore_ament_install'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['colcon_pkg']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'colcon_pkg'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['colcon_meta']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'colcon_meta'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['ros']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'ros'
+[2.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_description' with type 'ros.ament_cmake' and name 'tb3_description'
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/an/bao_ws/install
+[2.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/an/ros2_ws/install
+[2.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/an/an_ws/install
+[2.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 229 installed packages in /opt/ros/humble
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.474s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'cmake_args' from command line to 'None'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'cmake_target' from command line to 'None'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'cmake_clean_cache' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'cmake_clean_first' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'cmake_force_configure' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'ament_cmake_args' from command line to 'None'
+[2.476s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'catkin_cmake_args' from command line to 'None'
+[2.476s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_esp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.476s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_esp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/bao_ws/build/diffdrive_esp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/bao_ws/install/diffdrive_esp', 'merge_install': False, 'path': '/home/an/bao_ws/src/diffdrive_esp', 'symlink_install': False, 'test_result_base': None}
+[2.477s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'cmake_args' from command line to 'None'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'cmake_target' from command line to 'None'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.478s] Level 5:colcon.colcon_core.verb:set package 'tb3_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.478s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/bao_ws/build/tb3_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/bao_ws/install/tb3_controller', 'merge_install': False, 'path': '/home/an/bao_ws/src/tb3_controller', 'symlink_install': False, 'test_result_base': None}
+[2.480s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_args' from command line to 'None'
+[2.480s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_target' from command line to 'None'
+[2.480s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.480s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.480s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.480s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.481s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.481s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.481s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.481s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/an/bao_ws/build/tb3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/an/bao_ws/install/tb3_description', 'merge_install': False, 'path': '/home/an/bao_ws/src/tb3_description', 'symlink_install': False, 'test_result_base': None}
+[2.481s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/bao_ws/src/diffdrive_esp' with build type 'ament_cmake'
+[2.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/bao_ws/src/diffdrive_esp'
+[2.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/bao_ws/src/tb3_controller' with build type 'ament_cmake'
+[2.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/bao_ws/src/tb3_controller'
+[2.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.561s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/an/bao_ws/src/tb3_description' with build type 'ament_cmake'
+[2.562s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/an/bao_ws/src/tb3_description'
+[2.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/diffdrive_esp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/bao_ws/src/diffdrive_esp -DCMAKE_INSTALL_PREFIX=/home/an/bao_ws/install/diffdrive_esp
+[2.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/tb3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/bao_ws/src/tb3_controller -DCMAKE_INSTALL_PREFIX=/home/an/bao_ws/install/tb3_controller
+[2.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/tb3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/bao_ws/src/tb3_description -DCMAKE_INSTALL_PREFIX=/home/an/bao_ws/install/tb3_description
+[8.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/tb3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/bao_ws/src/tb3_description -DCMAKE_INSTALL_PREFIX=/home/an/bao_ws/install/tb3_description
+[8.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/tb3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/tb3_description -- -j4 -l4
+[8.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/tb3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/tb3_description -- -j4 -l4
+[8.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/tb3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/tb3_description
+[8.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_description)
+[8.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/tb3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/tb3_description
+[8.926s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description' for CMake module files
+[8.930s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description' for CMake config files
+[8.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_description', 'cmake_prefix_path')
+[8.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_description/share/tb3_description/hook/cmake_prefix_path.ps1'
+[8.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/tb3_description/share/tb3_description/hook/cmake_prefix_path.dsv'
+[8.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_description/share/tb3_description/hook/cmake_prefix_path.sh'
+[8.947s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/bin'
+[8.947s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/lib/pkgconfig/tb3_description.pc'
+[8.949s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/lib/python3.10/site-packages'
+[8.950s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/bin'
+[8.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.ps1'
+[8.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.dsv'
+[8.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.sh'
+[8.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.bash'
+[8.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.zsh'
+[8.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/bao_ws/install/tb3_description/share/colcon-core/packages/tb3_description)
+[9.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_description)
+[9.141s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description' for CMake module files
+[9.145s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description' for CMake config files
+[9.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_description', 'cmake_prefix_path')
+[9.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_description/share/tb3_description/hook/cmake_prefix_path.ps1'
+[9.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/tb3_description/share/tb3_description/hook/cmake_prefix_path.dsv'
+[9.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_description/share/tb3_description/hook/cmake_prefix_path.sh'
+[9.166s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/bin'
+[9.167s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/lib/pkgconfig/tb3_description.pc'
+[9.169s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/lib/python3.10/site-packages'
+[9.170s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_description/bin'
+[9.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.ps1'
+[9.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.dsv'
+[9.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.sh'
+[9.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.bash'
+[9.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_description/share/tb3_description/package.zsh'
+[9.203s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/bao_ws/install/tb3_description/share/colcon-core/packages/tb3_description)
+[15.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/tb3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/bao_ws/src/tb3_controller -DCMAKE_INSTALL_PREFIX=/home/an/bao_ws/install/tb3_controller
+[15.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/tb3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/tb3_controller -- -j4 -l4
+[19.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/diffdrive_esp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake /home/an/bao_ws/src/diffdrive_esp -DCMAKE_INSTALL_PREFIX=/home/an/bao_ws/install/diffdrive_esp
+[19.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/diffdrive_esp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/diffdrive_esp -- -j4 -l4
+[38.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/diffdrive_esp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/diffdrive_esp -- -j4 -l4
+[38.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/diffdrive_esp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/diffdrive_esp
+[39.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_esp)
+[39.009s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp' for CMake module files
+[39.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/diffdrive_esp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/diffdrive_esp
+[39.014s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp' for CMake config files
+[39.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp', 'cmake_prefix_path')
+[39.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/cmake_prefix_path.ps1'
+[39.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/cmake_prefix_path.dsv'
+[39.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/cmake_prefix_path.sh'
+[39.030s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/lib'
+[39.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp', 'ld_library_path_lib')
+[39.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/ld_library_path_lib.ps1'
+[39.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/ld_library_path_lib.dsv'
+[39.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/ld_library_path_lib.sh'
+[39.040s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/bin'
+[39.041s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/lib/pkgconfig/diffdrive_esp.pc'
+[39.042s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/lib/python3.10/site-packages'
+[39.043s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/bin'
+[39.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.ps1'
+[39.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.dsv'
+[39.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.sh'
+[39.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.bash'
+[39.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.zsh'
+[39.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/bao_ws/install/diffdrive_esp/share/colcon-core/packages/diffdrive_esp)
+[39.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_esp)
+[39.212s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp' for CMake module files
+[39.217s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp' for CMake config files
+[39.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp', 'cmake_prefix_path')
+[39.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/cmake_prefix_path.ps1'
+[39.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/cmake_prefix_path.dsv'
+[39.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/cmake_prefix_path.sh'
+[39.240s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/lib'
+[39.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_esp', 'ld_library_path_lib')
+[39.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/ld_library_path_lib.ps1'
+[39.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/ld_library_path_lib.dsv'
+[39.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/hook/ld_library_path_lib.sh'
+[39.248s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/bin'
+[39.249s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/lib/pkgconfig/diffdrive_esp.pc'
+[39.251s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/lib/python3.10/site-packages'
+[39.252s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/diffdrive_esp/bin'
+[39.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.ps1'
+[39.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.dsv'
+[39.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.sh'
+[39.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.bash'
+[39.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.zsh'
+[39.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/bao_ws/install/diffdrive_esp/share/colcon-core/packages/diffdrive_esp)
+[57.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/tb3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/tb3_controller -- -j4 -l4
+[57.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/an/bao_ws/build/tb3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/tb3_controller
+[58.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_controller)
+[58.005s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller' for CMake module files
+[58.008s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller' for CMake config files
+[58.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_controller', 'cmake_prefix_path')
+[58.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/hook/cmake_prefix_path.ps1'
+[58.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/an/bao_ws/build/tb3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/tb3_controller
+[58.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/hook/cmake_prefix_path.dsv'
+[58.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/hook/cmake_prefix_path.sh'
+[58.025s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/lib'
+[58.026s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/bin'
+[58.028s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/lib/pkgconfig/tb3_controller.pc'
+[58.029s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/lib/python3.10/site-packages'
+[58.030s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/bin'
+[58.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.ps1'
+[58.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.dsv'
+[58.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.sh'
+[58.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.bash'
+[58.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.zsh'
+[58.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/bao_ws/install/tb3_controller/share/colcon-core/packages/tb3_controller)
+[58.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_controller)
+[58.211s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller' for CMake module files
+[58.223s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller' for CMake config files
+[58.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_controller', 'cmake_prefix_path')
+[58.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/hook/cmake_prefix_path.ps1'
+[58.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/hook/cmake_prefix_path.dsv'
+[58.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/hook/cmake_prefix_path.sh'
+[58.251s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/lib'
+[58.251s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/bin'
+[58.252s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/lib/pkgconfig/tb3_controller.pc'
+[58.253s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/lib/python3.10/site-packages'
+[58.255s] Level 1:colcon.colcon_core.environment:checking '/home/an/bao_ws/install/tb3_controller/bin'
+[58.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.ps1'
+[58.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.dsv'
+[58.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.sh'
+[58.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.bash'
+[58.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.zsh'
+[58.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/an/bao_ws/install/tb3_controller/share/colcon-core/packages/tb3_controller)
+[58.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[58.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[58.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[58.275s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[58.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[58.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[58.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[58.326s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[58.330s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[58.331s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[58.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/bao_ws/install/local_setup.ps1'
+[58.341s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/an/bao_ws/install/_local_setup_util_ps1.py'
+[58.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/bao_ws/install/setup.ps1'
+[58.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/bao_ws/install/local_setup.sh'
+[58.368s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/an/bao_ws/install/_local_setup_util_sh.py'
+[58.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/bao_ws/install/setup.sh'
+[58.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/bao_ws/install/local_setup.bash'
+[58.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/bao_ws/install/setup.bash'
+[58.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/an/bao_ws/install/local_setup.zsh'
+[58.395s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/an/bao_ws/install/setup.zsh'

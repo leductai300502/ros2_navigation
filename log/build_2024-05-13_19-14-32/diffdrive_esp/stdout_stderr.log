@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_esp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_esp.dir/hardware/diffbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdiffdrive_esp.so[0m
+[100%] Built target diffdrive_esp
+-- Install configuration: ""
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/diffdrive_esp.xml
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/esp32_comms.hpp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/visibility_control.h
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/wheel.hpp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/diffbot_system.hpp
+-- Installing: /home/an/bao_ws/install/diffdrive_esp/lib/libdiffdrive_esp.so
+-- Set runtime path of "/home/an/bao_ws/install/diffdrive_esp/lib/libdiffdrive_esp.so" to ""
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/library_path.sh
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/library_path.dsv
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/path.sh
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/path.dsv
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.bash
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.sh
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.zsh
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.dsv
+-- Installing: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.dsv
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/packages/diffdrive_esp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/export_diffdrive_espExport.cmake
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/export_diffdrive_espExport-noconfig.cmake
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/diffdrive_espConfig.cmake
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/diffdrive_espConfig-version.cmake
+-- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.xml

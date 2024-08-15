@@ -1,0 +1,39 @@
+[0.132s] Invoking command in '/home/an/bao_ws/build/diffdrive_esp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/diffdrive_esp -- -j4 -l4
+[0.917s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_esp.dir/hardware/diffbot_system.cpp.o[0m
+[16.532s] [100%] [32m[1mLinking CXX shared library libdiffdrive_esp.so[0m
+[17.662s] [100%] Built target diffdrive_esp
+[17.701s] Invoked command in '/home/an/bao_ws/build/diffdrive_esp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/diffdrive_esp -- -j4 -l4
+[17.853s] Invoking command in '/home/an/bao_ws/build/diffdrive_esp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/diffdrive_esp
+[17.885s] -- Install configuration: ""
+[17.885s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/diffdrive_esp.xml
+[17.886s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp
+[17.887s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp
+[17.888s] -- Installing: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/esp32_comms.hpp
+[17.889s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/visibility_control.h
+[17.890s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/wheel.hpp
+[17.890s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/include/diffdrive_esp/diffdrive_esp/diffbot_system.hpp
+[17.892s] -- Installing: /home/an/bao_ws/install/diffdrive_esp/lib/libdiffdrive_esp.so
+[17.900s] -- Set runtime path of "/home/an/bao_ws/install/diffdrive_esp/lib/libdiffdrive_esp.so" to ""
+[17.901s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/library_path.sh
+[17.901s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/library_path.dsv
+[17.901s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/package_run_dependencies/diffdrive_esp
+[17.904s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/parent_prefix_path/diffdrive_esp
+[17.905s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/ament_prefix_path.sh
+[17.905s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/ament_prefix_path.dsv
+[17.906s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/path.sh
+[17.906s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/environment/path.dsv
+[17.907s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.bash
+[17.907s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.sh
+[17.908s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.zsh
+[17.908s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/local_setup.dsv
+[17.908s] -- Installing: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.dsv
+[17.910s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/packages/diffdrive_esp
+[17.911s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_esp
+[17.915s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/export_diffdrive_espExport.cmake
+[17.916s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/export_diffdrive_espExport-noconfig.cmake
+[17.917s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/ament_cmake_export_targets-extras.cmake
+[17.917s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.918s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/diffdrive_espConfig.cmake
+[17.918s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/cmake/diffdrive_espConfig-version.cmake
+[17.919s] -- Up-to-date: /home/an/bao_ws/install/diffdrive_esp/share/diffdrive_esp/package.xml
+[17.926s] Invoked command in '/home/an/bao_ws/build/diffdrive_esp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/diffdrive_esp

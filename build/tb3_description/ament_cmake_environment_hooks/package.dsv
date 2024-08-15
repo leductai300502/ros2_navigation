@@ -1,0 +1,4 @@
+source;share/tb3_description/local_setup.bash
+source;share/tb3_description/local_setup.dsv
+source;share/tb3_description/local_setup.sh
+source;share/tb3_description/local_setup.zsh

@@ -1,0 +1,64 @@
+[0.695s] Invoking command in '/home/an/bao_ws/build/tb3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/tb3_controller -- -j4 -l4
+[0.892s] [35m[1mConsolidate compiler generated dependencies of target odom_publisher[0m
+[0.999s] [  0%] Built target ament_cmake_python_copy_tb3_controller
+[1.044s] [100%] Built target odom_publisher
+[2.401s] running egg_info
+[2.402s] writing tb3_controller.egg-info/PKG-INFO
+[2.424s] writing dependency_links to tb3_controller.egg-info/dependency_links.txt
+[2.426s] writing top-level names to tb3_controller.egg-info/top_level.txt
+[2.437s] reading manifest file 'tb3_controller.egg-info/SOURCES.txt'
+[2.440s] writing manifest file 'tb3_controller.egg-info/SOURCES.txt'
+[2.566s] [100%] Built target ament_cmake_python_build_tb3_controller_egg
+[2.608s] Invoked command in '/home/an/bao_ws/build/tb3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --build /home/an/bao_ws/build/tb3_controller -- -j4 -l4
+[2.760s] Invoking command in '/home/an/bao_ws/build/tb3_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/tb3_controller
+[2.792s] -- Install configuration: ""
+[2.792s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/environment/pythonpath.sh
+[2.793s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/environment/pythonpath.dsv
+[2.795s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller-0.0.0-py3.10.egg-info
+[2.795s] -- Installing: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.796s] -- Installing: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.796s] -- Installing: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[2.797s] -- Installing: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller-0.0.0-py3.10.egg-info/top_level.txt
+[2.799s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller
+[2.800s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller/__init__.py
+[2.800s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller/simple_controller.py
+[2.964s] Listing '/home/an/bao_ws/install/tb3_controller/local/lib/python3.10/dist-packages/tb3_controller'...
+[2.993s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/include/include
+[2.994s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/include/include/turtlebot3_controller
+[2.994s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/include/include/turtlebot3_controller/noisy_controller.hpp
+[2.995s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/include/include/turtlebot3_controller/simple_controller.hpp
+[2.996s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/include/include/turtlebot3_controller/odom_publisher.hpp
+[2.997s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/lib/tb3_controller/odom_publisher
+[2.998s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config
+[2.999s] -- Installing: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config/turtlebot3_controllers.yaml
+[3.000s] -- Installing: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config/nav2_params.yaml
+[3.002s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config/twist_mux.yaml
+[3.002s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config/diff_drive_controllers.yaml
+[3.003s] -- Installing: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config/mapper_params_online_async.yaml
+[3.005s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config/gazebo_params.yaml
+[3.006s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/config/waffle_pi.yaml
+[3.007s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch
+[3.008s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch/localization_launch.py
+[3.009s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch/launch_rb_controller.launch.py
+[3.010s] -- Installing: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch/diff_drive_controller.launch.py
+[3.011s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch/rsp.launch.py
+[3.012s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch/launch_sim.py
+[3.013s] -- Installing: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch/online_async_launch.py
+[3.014s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/launch/navigation_launch.py
+[3.015s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/lib/tb3_controller/simple_controller.py
+[3.016s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/ament_index/resource_index/package_run_dependencies/tb3_controller
+[3.016s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/ament_index/resource_index/parent_prefix_path/tb3_controller
+[3.018s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/environment/ament_prefix_path.sh
+[3.019s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/environment/ament_prefix_path.dsv
+[3.019s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/environment/path.sh
+[3.020s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/environment/path.dsv
+[3.021s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/local_setup.bash
+[3.021s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/local_setup.sh
+[3.021s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/local_setup.zsh
+[3.022s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/local_setup.dsv
+[3.022s] -- Installing: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.dsv
+[3.023s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/ament_index/resource_index/packages/tb3_controller
+[3.023s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/cmake/tb3_controllerConfig.cmake
+[3.024s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/cmake/tb3_controllerConfig-version.cmake
+[3.024s] -- Up-to-date: /home/an/bao_ws/install/tb3_controller/share/tb3_controller/package.xml
+[3.248s] Invoked command in '/home/an/bao_ws/build/tb3_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/an/ros2_ws/install/self_driving:/opt/ros/humble /usr/bin/cmake --install /home/an/bao_ws/build/tb3_controller
